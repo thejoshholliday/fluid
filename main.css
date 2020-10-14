@@ -1,0 +1,303 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: #59A0FF;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: #59A0FF;
+  margin: 2.5vw auto;
+  position: relative
+}
+.flower {
+      width: 0.75vw;
+      height: 8vw;
+      background: #340202;
+     margin-left: 35vw;
+     top: 20vw;
+     bottom: 40vw;
+     position: absolute;
+     z-index: +9;
+    }
+    .flower20 {
+      width: 0.75vw;
+      height: 12vw;
+      background: #340202;
+     margin-left: 33.5vw;
+     top: 18vw;
+     bottom: 30vw;
+     position: absolute;
+     z-index: +4;
+    }
+    .flower30 {
+      width: 0.75vw;
+      height: 9vw;
+      background: #340202;
+     margin-left: 32vw;
+    top: 20vw;
+     bottom: 20vw;
+     position: absolute;
+     z-index: +4;
+    }
+      .flower40 {
+      width: 0.75vw;
+      height: 7vw;
+      background: #340202;
+     margin-left: 30.5vw;
+    top: 20vw;
+     bottom: 20vw;
+     position: absolute;
+     z-index: +4;
+    }
+ .triangle-bottomright {
+      width: 0;
+      height: 0;
+      border-bottom: 6vw solid #D1D1D1;
+      border-left: 6vw solid transparent;
+      opacity: 70%;
+      position: absolute;
+      z-index: +10;
+      top: 24.75vw;
+      margin-left: 30vw;
+      transform: rotate(45deg);
+    }
+ .triangle-bottomleft {
+      width: 0;
+      height: 0;
+      border-bottom: 6vw solid #D1D1D1;
+      border-left: 6vw solid transparent;
+      opacity: 70%;
+      position: absolute;
+      z-index: +3;
+      top: 33vw;
+      margin-left: 30vw;
+      transform: rotate(225deg);
+      z-index: +4;
+    }
+.vase {
+  width: 8vw;
+  height: 10vw;
+  background:  #D1D1D1;
+  opacity: 70%;
+  position: absolute;
+  left: 29vw;
+  top: 18vw;
+  z-index: +10;
+}
+.circle4 {
+      width: 3vw;
+      height: 3vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 13vw;
+     margin-left: 35vw;
+     position: absolute;
+     z-index: +20;
+      border-radius: 80%;
+    }
+.circle5 {
+      width: 5vw;
+      height: 5vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 15vw;
+     margin-left: 34vw;
+     position: absolute;
+     z-index: +20;
+      border-radius: 80%;
+    }
+.circle6 {
+      width: 5vw;
+      height: 5vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 10vw;
+     bottom: 10vw;
+     margin-left: 30vw;
+     position: absolute;
+     z-index: +15;
+      border-radius: 80%;
+    }
+.circle7 {
+      width: 5vw;
+      height: 5vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 8vw;
+     bottom: 10vw;
+     margin-left: 34vw;
+     position: absolute;
+     z-index: +25;
+      border-radius: 80%;
+    }
+.circle8 {
+      width: 10vw;
+      height: 10vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 10vw;
+     bottom: 10vw;
+     margin-left: 30vw;
+     position: absolute;
+     z-index: +10;
+      border-radius: 80%;
+    }
+    .circle11 {
+      width: 8vw;
+      height: 8vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 6vw;
+     bottom: 10vw;
+     margin-left: 27vw;
+     position: absolute;
+     z-index: +10;
+      border-radius: 80%;
+    }
+ .circle12 {
+      width: 6vw;
+      height: 6vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 12vw;
+     bottom: 10vw;
+     margin-left: 25vw;
+     position: absolute;
+     z-index: +10;
+      border-radius: 80%;
+    }
+ .circle13 {
+      width: 6vw;
+      height: 6vw;
+      background: radial-gradient(#F9004B, #FFFFFF);
+     top: 15vw;
+     bottom: 10vw;
+     margin-left: 29vw;
+     position: absolute;
+     z-index: +12;
+      border-radius: 80%;
+    }
+.pumpkindot {
+  width: 22vw;
+  height: 20vw;
+  z-index: 10;
+  left: 49vw;
+  top: 20vw;
+  position: absolute;
+  background: #FD4A24;
+      border-radius: 50%
+    }
+.table {
+  width: 91.9vw;
+  height: 10vw;
+  bottom: 30vw;
+  top: 47vw;
+  left: -0.5vw;
+  background:  #DBA984;
+  position: absolute;
+  z-index: 2;
+}
+.moretable {
+    border-bottom: 35vw solid #F2BA91;
+    border-left: 10vw solid transparent;
+    border-right: 25vw solid transparent;
+    height: 0;
+    width: 70vw;
+ right: 3vw;
+ bottom: 9vw;
+ z-index: 2;
+    position: absolute;
+}
+.pumpkin-top {
+      width: 11vw;
+      height: 10vw;
+      top: 17vw;
+      margin-left: 54vw;
+      position: absolute;
+      background-color: #FD4A24;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+      z-index: 4;
+    }
+.pumpkingradient {
+      width: 3vw;
+      height: 3vw;
+      background: radial-gradient(brown, orange);
+     top: 16vw;
+     left: 58vw;
+     position: absolute;
+     z-index: +8;
+      border-radius: 80%;
+    }
+.woah {
+  width: 24vw;
+  height: 2vw;
+  background: linear-gradient(#FFD700, black);
+  z-index: 5;
+  right: 32vw;
+  bottom: 34vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.case {
+  width: 4vw;
+  height: 10vw;
+  position: absolute;
+  right: 42vw;
+  background: #D7CEC7;
+}
+.candle40 {
+  width:8vw;
+  height: 5vw;
+  z-index: 20;
+  right: 40vw;
+top: 8vw;
+  position: absolute;
+  transform: rotate(90deg);
+  background: linear-gradient(#FFD700, black);
+}
+.circle {
+  width: 15vw;
+  height: 2vw;
+  background: linear-gradient(#FFD700, black);
+  z-index: 5;
+  left: 7vw;
+  bottom: 22vw;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.circle2 {
+  width: 4vw;
+  height: 10vw;
+  position: absolute;
+  left: 12.5vw;
+  bottom: 34vw;
+  background: #D7CEC7;
+  z-index: 20;
+}
+.circle3 {
+  width:8vw;
+  height: 5vw;
+  z-index: 20;
+ left: 10.5vw;
+top: 22vw;
+  position: absolute;
+  transform: rotate(90deg);
+  background: linear-gradient(#FFD700, black);
+}
+.candle50 {
+width: 4vw;
+  height: 3vw;
+  z-index: 20;
+  left: 12.5vw;
+  bottom: 15vw;
+  position: absolute;
+  background: linear-gradient(270deg,#FFD700, black);
+}
+------------------
+
+
+
+
+/* Your CSS goes here */
